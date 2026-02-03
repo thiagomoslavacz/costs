@@ -1,0 +1,71 @@
+.projectDetails {
+  width: 100%;
+  padding: 2rem;
+}
+
+.projectDetails h2,
+.projectDetails p {
+  margin-bottom: 0.5rem;
+}
+
+.projectDetails h1 {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.projectDetails h1 span {
+  background-color: #222;
+  color: var(--main-color);
+  border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+  margin-left: 0.3rem;
+  font-weight: bold;
+}
+
+.projectDetails .projectInfo span {
+  font-weight: bold;
+}
+
+.detailsContainer,
+.servicesContainer {
+  border-bottom: 1px solid #7a7a7a;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  transition:
+    color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  color: var(--main-color);
+  box-shadow: 3px 3px 15px rgba(229, 75, 75, 0.5);
+}
+
+.projectInfo {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.projectForm {
+  width: 100%;
+}
+
+.textCenter {
+  margin: 0 auto;
+}

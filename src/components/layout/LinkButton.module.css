@@ -1,0 +1,18 @@
+.btn {
+  background-color: #222;
+  color: #fff;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  outline: none;
+  border-radius: 3px;
+  transition:
+    color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  color: var(--main-color);
+  box-shadow: 3px 3px 15px rgba(229, 75, 75, 0.5);
+}

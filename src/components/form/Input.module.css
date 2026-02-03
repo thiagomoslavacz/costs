@@ -1,0 +1,54 @@
+.formControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formControl label {
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.formControl input {
+  width: 100%;
+  height: auto;
+  padding: 0.7rem;
+  border-radius: 0;
+  border-color: transparent;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.formControl input:focus-visible {
+  outline: none;
+  border-color: #e54b4b;
+  box-shadow: 2px 2px 10px rgba(229, 75, 75, 0.5);
+}
+
+.formControl input::placeholder {
+  color: #7b7b7b;
+}
+
+.inputNumberContainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.inputNumberContainer .prefix {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.inputNumberContainer input {
+  padding-left: 0;
+  transition: padding 0.3s ease;
+}
+
+.inputNumberContainer input:focus-visible {
+  padding-left: 0.5rem;
+}

@@ -1,0 +1,37 @@
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  outline: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.link:hover,
+.link:focus-visible {
+  color: var(--main-color);
+}
+
+.copyright {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+}
+
+.copyright span {
+  font-weight: bold;
+  color: var(--main-color);
+}
